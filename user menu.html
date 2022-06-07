@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricila kauta menu</title>
+    <style>
+        .navbar{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 15px;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: inherit;
+        }
+        .logo{
+            margin-right: 50px;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+
+        }
+        @media screen (max-width:600px){
+            .menu{
+                width: 100%
+                max-height:0;
+                overflow:hidden;
+            }
+            
+        }
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">LOGO</a>
+        <input type="checkbox" id="toggle">
+        <label for="toggle"><i class="ri-menu-line"></i></label>
+        <div class="menu">
+        <ul class="list">
+            <li><a href="#"home></a></li>
+            <li><a href="#"about></a></li>
+            <li><a href="#"activity></a></li>
+            <li><a href="#"contact us></a></li>
+            <li><a href="report"></a></li>
+        </ul>
+        </div>
+    </nav> 
+    
+</body>
+</html>
